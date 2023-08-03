@@ -10,7 +10,6 @@ public class StudentApplication {
 	private static Logger logger = LoggerFactory.getLogger(StudentApplication.class);
 
 	public static void main(String[] args) {
-		logger.info("---------before main start-----------");
 		SpringApplication.run(StudentApplication.class, args);
 		logger.info("--------after main end----------------");
 	}
