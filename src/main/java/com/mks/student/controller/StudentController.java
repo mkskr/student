@@ -9,5 +9,10 @@ import org.springframework.web.bind.annotation.RestController;
 public class StudentController {
 
     @GetMapping("/msg")
-    public String msg(){ return "hello world";}
+    public String msg(){ return "hello msg";}
+
+    @GetMapping("/hello")
+    public String showHello(){
+        return "hello world";
+    }
 }
