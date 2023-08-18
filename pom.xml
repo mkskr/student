@@ -49,7 +49,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
-		<finalName>student</finalName>
+		<finalName>studentjank</finalName>
 	</build>
 
 </project>
